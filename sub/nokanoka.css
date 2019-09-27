@@ -1,0 +1,98 @@
+@import url("../index.css");
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin-top: 75px;
+	background-image: url("../photo/head.png");
+	background-repeat: repeat-x;
+	background-color: #fdddde;
+}
+
+links {
+	margin-top:-75px;
+	width: 180px;
+	height: 100%;
+	display: block;
+	background-color: #fff450;
+	position: fixed;
+}
+
+links perl_logo {
+	width: 180px;
+	height: 180px;
+	margin:auto;
+	background-repeat: no-repeat;
+	display: block;
+	border-radius: 50%;
+	background-image: url("../photo/logo_sub.png")
+}
+
+vCenter {
+	vertical-align: middle;
+	display: inline-block;
+	height: 100%;
+}
+
+li {
+	background-color: #fff450;
+	width: 100%;
+	height: 32px;
+	display: block;
+	color: #ff336c;
+	font-size: 25px;
+	font-family:MyFont;
+	text-align: center;
+}
+
+li:hover {
+	background-color: #feebec;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	position: relative;
+	margin-left: 180px;
+}
+
+.box1 {
+	border: solid 1px #fa3;
+	padding: 12px;
+	background-color:#fff2e0;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family:MyFont;
+	font-size:60px;
+	color: #fa3;
+	text-align: 0px;
+	padding: 0.25em;
+	border-top: solid 2px #ff9500;
+	border-bottom: solid 2px #ff9500;
+	background: -webkit-repeating-linear-gradient(-45deg, #ffedd6, #ffedd6 3px,#ffd499 3px, #fff2e0 7px);
+	background: repeating-linear-gradient(-45deg, #ffedd6, #ffedd6 3px,#fff2e0 3px, #fff2e0 7px);
+}
+
+h3 {
+	background-color: #ffe9cc;
+}
+
+hr{
+	position:relative;
+	bottom:-15px;
+	border:2px red solid;
+}
+
+copy{
+	position:relative;
+	bottom:-17px;
+	font-family: 'MyFont';
+	font-size:15px;
+}
